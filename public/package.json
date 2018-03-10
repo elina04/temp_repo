@@ -1,0 +1,22 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "Programming 3 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elina04/temp_repo.git"
+  },
+  "author": "Elina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elina04/temp_repo/issues"
+  },
+  "homepage": "https://github.com/elina04/temp_repo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
