@@ -20,6 +20,19 @@ var h = 30;
 var side = 24;
 var grassArr = [], xotakerArr = [], gishatichArr = [];
 
+var obj = {
+    "first_name": "Elina",
+    "last_name": "Galstyan",
+    "age": "13",
+    "tumo_student": true,
+    sayHello(){
+        console.log(this.first_name);
+    }
+}
+console.log(obj);
+console.log(obj.first_name);
+obj.sayHello();
+
 function setup() {
     matrix = genMatrix(w, h);
     createCanvas(side * w, side * h);
@@ -61,7 +74,7 @@ function draw() {
     }
 
     for(var i in grassArr) {
-        grassArr[i].mul();
+        grassArr[i].bazmanal();
     }
 
     for(var i in xotakerArr) {
